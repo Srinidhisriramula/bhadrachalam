@@ -1,0 +1,92 @@
+<DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Form</title>
+        <style>
+            body {
+                background-image: url("https://i.pinimg.com/736x/ed/c4/29/edc4293c6a998ed301ac660e3864554f.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: fixed;
+            }
+
+            h1 {
+                color:white;
+                font-size: 40px;
+            }
+
+            .container {
+                text-align: center;
+                background-color:rgba(212,134,255,0.7);
+                width: 20%;
+                margin: 5% 0% 0% 37%;
+                padding: 2%;
+                opacity: 0.8;
+                border-radius: 5px;
+            }
+
+            .container input {
+                width: 50%;
+                padding: 1%;
+                background-color: #013939;
+                color:white;
+            }
+
+            .not {
+                color: white;
+            }
+
+            .container .btn {
+                width: 40%;
+                background-color: rgb(235, 57, 235);
+                color: black;
+                font-size: 20px;
+                padding: 1%;
+                border: none;
+            }
+            .login{
+                text-decoration: none;
+            }
+
+            .container .register {
+                padding: 2px;
+                color: rgb(62, 3, 62);
+                font-size: 17px;
+                text-decoration: none;
+            }
+
+            .account {
+                color: white;
+                font-size: 17px;
+                padding: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Login</h1>
+            <form action="">
+                <!-- <div class="image">
+                <img src="images/robo_pic-removebg-preview.png" alt="robo pic" width="40%">
+            </div> -->
+                <p><input type="name" placeholder="Username" required></p>
+                <p><input type="email" placeholder="Enter your email" required></p>
+                <p><input type="password" placeholder="Enter your password" required></p>
+                <div class="not">
+                    <a href="" class="register">Forget Password?</a>
+                </div>
+                <button class="btn">
+                    <a href="webpage.html" class="login">Login</a></button>
+                <div class="account">
+                    Don't have an account?
+                    <a href="registration.html" target="_blank" class="register">Register</a>
+                </div>
+            </form>
+        </div>
+    </body>
+
+    </html>
